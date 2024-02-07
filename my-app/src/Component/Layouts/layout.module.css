@@ -12,9 +12,10 @@
   /* background-color: rgb(248,250,252); */
 }
 .subcont{
-   /* border-bottom: 1px solid gray; */
+   /* border-bottom: 1px solid green; */
     display: flex;
     flex-direction: row;
+    height: 100vh;
 }
 .subcontone{
   display: none;
@@ -86,6 +87,10 @@ min-height: 100vh;
   /* background-color: blue; */
   min-height: 100vh;
   }
+  .subcont{
+    
+     height: 90vh;
+ }
   
 }
 
@@ -100,6 +105,11 @@ min-height: 100vh;
   
   
   }
+  .subcont{
+    
+    height: 140vh;
+}
+ 
 }
 
 
@@ -107,8 +117,9 @@ min-height: 100vh;
 @media (min-width:1280px) {
   .subcontone{
   flex: 0.92;
- 
-  
-  
   }
+  .subcont{
+    
+    height: 110vh;
+}
 }
