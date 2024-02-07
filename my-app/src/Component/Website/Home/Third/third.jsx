@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image';
 import bg from '../../../../../public/img/new.jpeg'
-import styles from './Third.module.css'
+import styles from './third.module.css'
 import { MdArrowForwardIos } from 'react-icons/md';
 
 const Third = () => {
