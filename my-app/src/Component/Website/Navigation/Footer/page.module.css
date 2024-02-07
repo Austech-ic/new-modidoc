@@ -1,0 +1,291 @@
+.maincont{
+    color: gray;
+    padding: 10px 0 20px 0;
+  }
+  .subcont{
+    padding: 0 20px 10px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .subone{
+    flex: 1;
+    font-size: x-small;
+  }
+  .subtwo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+  }
+  .about{
+    flex: 1;
+    font-size: x-small;
+    height: 25vh;
+
+  }
+  .project{
+    flex: 1;
+    font-size: x-small;
+    height: 25vh;
+    
+  }
+  .company{
+    font-weight: 900;
+  }
+  .resources{
+    font-weight: 900;
+  }
+  .commun{
+    flex: 1;
+    font-size: x-small;
+    height: 25vh;
+  }
+  .img{
+    width: 70%;
+  }
+  .aboutext{
+    font-weight: 900;
+   
+  }
+  .subonecomp {
+    width: 50%;
+    padding: 20px 0;
+  }
+  .iconcont{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+  }
+  .divcont{
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: x-small;
+      padding: 10px 20px;
+  }
+  .icon{
+    width: 15px;
+    height: 15px;
+  }
+  .abtcont{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 10px 0;
+  }
+  .compcont{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 10px 0;
+  }
+  .resourcecont{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 10px 0;
+  }
+  
+  
+  
+  @media (min-width:768px) {
+  
+    .subcont{
+      padding: 0 40px;
+      display: flex;
+      flex-direction: row;
+    }
+    .subone{
+      flex: 2;
+      font-size: medium;
+    }
+    .subtwo{
+      flex: 4;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 20px 0;
+    }
+    .img{
+      width: 100%;
+    }
+    .about{
+      flex: 1;
+      font-size: medium;
+      height: 23vh;
+    }
+    .project{
+      flex: 1;
+      font-size: medium;
+      height: 23vh;
+    }
+    .commun{
+      flex: 1;
+      font-size: medium;
+      height: 23vh;
+    }
+    .subonecomp {
+      width: 70%;
+    }
+    .iconcont{
+      display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .divcont{
+      display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: medium;
+        padding: 20px 40px;
+    }
+    .icon{
+      width: 25px;
+      height: 25px;
+    }
+    .abtcont{ 
+        gap: 5px;
+      }
+      .compcont{
+        gap: 5px;
+      }
+      .resourcecont{
+        gap: 5px;
+      }
+    
+  }
+  
+  
+  
+  @media (min-width:1024px) {
+   
+    .subcont{
+      padding: 0 40px;
+      display: flex;
+      flex-direction: row;
+    }
+    .subone{
+      flex: 2;
+      font-size: small;
+    }
+    .subtwo{
+      flex: 3;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      
+      
+    }
+    .img{
+      width: 50%;
+    }
+    .about{
+      flex: 1;
+      font-size: small;
+      height: 40vh;
+    }
+    .project{
+      flex: 1;
+      font-size: small;
+      height: 40vh;
+    }
+    .commun{
+      flex: 1;
+      font-size: small;
+      height: 40vh;
+    }
+    .subonecomp {
+      width: 50%;
+    }
+    .iconcont{
+      display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .divcont{
+      display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: small;
+        padding: 10px 40px;
+    }
+    .icon{
+      width: 18px;
+      height: 18px;
+    }
+    .abtcont{ 
+        gap: 5px;
+      }
+      .compcont{
+        gap: 5px;
+      }
+      .resourcecont{
+        gap: 5px;
+      }
+    
+  }
+  
+  
+  
+  
+  @media (min-width:1280px) {
+   
+    .subcont{
+      padding: 0 40px;
+      display: flex;
+      flex-direction: row;
+    }
+    .subone{
+      flex: 2;
+      font-size: medium;
+    }
+    .subtwo{
+      flex: 3;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      
+    }
+    .img{
+      width: 50%;
+    }
+    .about{
+      flex: 1;
+      font-size: medium;
+      height: 35vh;
+    }
+    .project{
+      flex: 1;
+      font-size: medium;
+      height: 35vh;
+    }
+    .commun{
+      flex: 1;
+      font-size: medium;
+      height: 35vh;
+    }
+    .subonecomp {
+      width: 50%;
+    }
+    .iconcont{
+      display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .divcont{
+      display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: medium;
+        padding: 10px 40px;
+    }
+    .icon{
+      width: 20px;
+      height: 20px;
+    }
+    
+  }

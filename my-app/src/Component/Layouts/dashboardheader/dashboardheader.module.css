@@ -1,0 +1,320 @@
+.maincont{
+    /* background-color: rgb(157, 0, 255); */
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* border-bottom: 0.5px solid gray; */
+    min-height: 8vh;
+    background-color: rgb(248,250,252);
+    
+    
+}
+.subcontone{
+    /* background-color: yellow; */
+    flex: 1;
+    display: none;
+    align-items: center;
+    /* background-color: brown; */
+    gap: 10px;
+    min-height: 8vh;
+    /* border: 1px solid red; */
+   
+}
+.subcontwo{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: chocolate; */
+    min-height: 8vh;
+}
+.textcont{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   /* background-color: blue; */
+    gap: 10px;
+    flex: 3;
+   
+}
+
+.imagecont{
+    border-radius: 100%;
+}
+.image{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.iconcont{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: green; */
+}
+.arrow{
+    width: 10px;
+    height: 10px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    color: gray;
+}
+.iconalarm{
+    width: 25px;
+    height: 25px;
+    color: gray;
+}
+.textone{
+    font-size: 14px;
+    color: gray;
+    /* border: 1px solid green; */
+}
+.textwo{
+    font-size: 12px;
+    color: gray;
+    /* border: 1px solid rgb(119, 128, 0); */
+    /* background-color: blue; */
+}
+.label{
+   font-size: 20px;
+   font-weight: bold;
+}
+.textwrap{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.upgradecont{
+    display: flex;
+    align-items: center;
+    /* background-color: green; */
+    gap: 10px;
+}
+.button{
+    display: flex;
+    align-items: center; 
+    background-color: #77C3FD;
+    padding:2px 10px;
+    gap: 10px;
+    color: white;
+    border-radius: 3px;
+    font-size: 14px;
+    border: none;
+}
+
+
+
+
+
+@media (min-width:768px) {
+    .maincont{
+        /* background-color: rgb(157, 0, 255); */
+        padding: 1px 10px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        /* border: 1px solid gray; */
+        min-height: 6vh;
+    }
+    .subcontone{
+        flex: 2.5;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        /* background-color: rgb(42, 165, 93); */
+        gap: 10px;
+        min-height: 6vh;
+        visibility: visible;
+    }
+    .subcontwo{
+        flex: 4;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* background-color: chocolate; */
+        min-height: 6vh;
+    }
+    .textcont{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+       /* background-color: blue; */
+        gap: 10px;
+        flex: 3;
+    }
+    
+    .imagecont{
+        border-radius: 100%;
+    }
+    .image{
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+    }
+    .iconcont{
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        /* background-color: green; */
+    }
+    .arrow{
+        width: 15px;
+        height: 15px;
+    }
+    .icon{
+        width: 30px;
+        height: 30px;
+        color: gray;
+    }
+    .iconalarm{
+        width: 30px;
+        height: 30px;
+        color: gray;
+    }
+    .textone{
+        font-size: 16px;
+        color: gray;
+    }
+    .textwo{
+        font-size: 13px;
+        color: gray;
+        /* background-color: blue; */
+    }
+    .label{
+       font-size: 22px;
+       font-weight: bold;
+    }
+    .textwrap{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+    .upgradecont{
+        display: flex;
+        align-items: center;
+        /* background-color: green; */
+        gap: 10px;
+    }
+    .button{
+        display: flex;
+        align-items: center; 
+        background-color: #77C3FD;
+        padding:2px 15px;
+        gap: 10px;
+        color: white;
+        border-radius: 3px;
+        font-size: 18px;
+    }
+  
+}
+
+@media (min-width:1024px) {
+    .maincont{
+        /* background-color: rgb(157, 0, 255); */
+        padding: 5px 10px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        /* border: 1px solid gray; */
+        min-height: 8vh;
+    }
+    .subcontone{
+        flex: 1.0;
+        display: flex;
+        align-items: center;
+        /* background-color: brown; */
+        gap: 10px;
+        min-height: 8vh;
+    }
+    .subcontwo{
+        flex: 3;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* background-color: chocolate; */
+        min-height: 8vh;
+    }
+    .textcont{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+       /* background-color: blue; */
+        gap: 10px;
+        flex: 3;
+    }
+    
+    .imagecont{
+        border-radius: 100%;
+    }
+    .image{
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+    }
+    .iconcont{
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        /* background-color: green; */
+    }
+    .arrow{
+        width: 10px;
+        height: 10px;
+    }
+    .icon{
+        width: 20px;
+        height: 20px;
+        color: gray;
+    }
+    .iconalarm{
+        width: 25px;
+        height: 25px;
+        color: gray;
+    }
+    .textone{
+        font-size: 14px;
+        color: gray;
+    }
+    .textwo{
+        font-size: 12px;
+        color: gray;
+        /* background-color: blue; */
+    }
+    .label{
+       font-size: 20px;
+       font-weight: bold;
+    }
+    .textwrap{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+    .upgradecont{
+        display: flex;
+        align-items: center;
+        /* background-color: green; */
+        gap: 10px;
+    }
+    .button{
+        display: flex;
+        align-items: center; 
+        background-color: #77C3FD;
+        padding:2px 10px;
+        gap: 10px;
+        color: white;
+        border-radius: 3px;
+        font-size: 14px;
+    }
+}
+@media (min-width:1280px) {
+    .subcontone{
+        flex: 0.9;
+    }
+    .textone{
+        font-size: 16px;
+        color: gray;
+    }
+}

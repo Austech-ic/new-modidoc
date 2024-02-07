@@ -1,0 +1,114 @@
+.maincont {
+  min-height: 70vh;
+  min-width: 100vw;
+  display: flex;
+  /* border: 1px solid red; */
+  flex-direction: column;
+  transition: all 0.9s ease; /* Add transition for smoother animation */
+  /* background-color: rgb(248,250,252); */
+}
+.head{
+  /* background-color: red; */
+  /* background-color: rgb(248,250,252); */
+}
+.subcont{
+   /* border-bottom: 1px solid gray; */
+    display: flex;
+    flex-direction: row;
+}
+.subcontone{
+  display: none;
+flex: 1;
+/* border-right:  0.5px solid gray; */
+/* background-color: aqua; */
+background-color: rgb(248,250,252);
+min-height: 100vh;
+}
+.subcontwo {
+  width: 100%; 
+  /* background-color: red; */
+  min-height: 100vh;
+}
+.line{
+  
+  border-left: 0.5px solid rgb(234, 227, 227); 
+  min-height: 100vh; 
+  transform: rotate(180deg);
+  margin: 0;
+}
+.menu{
+  display: block;
+  padding: 10px 0;
+}
+.menuOpen .subcontone {
+  width: 100%;
+  display: block;
+}
+.menuOpen .subcontwo {
+  width: 0; 
+  overflow: hidden;
+ 
+}
+.button{
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: rgb(237, 227, 237);
+  border-radius: 3px;
+  gap: 10px;
+}
+.mapmaincont{
+  background-color: red;
+}
+.cont{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container{
+  border: 1px solid gray;
+}
+
+
+
+@media (min-width:768px) {
+  .subcontone{
+    display: block;
+  flex: 1.85;
+  min-height: 100vh;
+  }
+  .menu{
+    display: none;
+}
+.subcontwo{
+  flex: 3;
+  /* border: 1px solid gray; */
+  /* background-color: blue; */
+  min-height: 100vh;
+  }
+  
+}
+
+
+@media (min-width:1024px) {
+  .subcontone{
+    display: block;
+  flex: 1;
+  /* border-right:  0.5px solid gray; */
+  min-height: 100vh;
+  /* background-color: red; */
+  
+  
+  }
+}
+
+
+
+@media (min-width:1280px) {
+  .subcontone{
+  flex: 0.92;
+ 
+  
+  
+  }
+}

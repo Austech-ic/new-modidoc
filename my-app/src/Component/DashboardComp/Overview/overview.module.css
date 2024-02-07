@@ -1,0 +1,221 @@
+.maincont{
+   /* border: 1px solid red; */
+   color: rgb(79,93,112);
+   min-height: 100vh;
+  padding: 40px;
+}
+.homemain{
+    display: flex;
+   flex-direction: column;
+  align-items: center;
+}
+.homecont{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(74, 141, 200);
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+.icons{
+  width: 20px;
+  height: 20px;
+}
+.textone{
+ text-align: center;
+ font-weight: 600;
+ font-size: 20px;
+ line-height: 25px;
+}
+.textwo{
+    text-align: center;
+     font-weight: 600;
+     font-size: 30px;
+     line-height: 40px;
+   }
+   .textcont{
+    padding: 12px 0;
+   }
+   .get{
+    font-size: 14px;
+    font-weight: 500;
+   }
+   .container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+   }
+   .cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   gap: 20px;
+   box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+   border: 1px solid gray;
+   padding: 10px 0;
+   border-radius: 5px;
+   font-size: 14px;
+   }
+   .getcont{
+    padding: 10px 0;
+   }
+   .last{
+    font-size: 12px;
+    text-align: start;
+    padding: 0 10px;
+   }
+   .bold{
+    font-weight: bold;
+   }
+   .lastcont{
+    padding: 10px 0;
+   }
+
+
+
+@media (min-width:768px) {
+    .maincont{
+        /* border: 1px solid red; */
+        /* min-height: 70vh; */
+        padding: 40px;
+     }
+     .homecont{
+         height: 80px;
+         width: 80px;
+         border-radius: 100%;
+     }
+     .icon{
+        width: 60px;
+        height: 60px;
+     }
+     .icons{
+      width: 30px;
+      height: 30px;
+    }
+     .textone{
+        text-align: center;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+       
+       }
+       .textwo{
+           text-align: center;
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 40px;
+          }
+          .textcont{
+            padding: 20px 0;
+           }
+           .get{
+            font-size: 20px;
+           }
+           .getcont{
+            padding: 30px 0;
+           }
+           .cont{
+            font-size: 24px;
+           padding: 20px 0;
+           }
+           .last{
+            font-size: 17px;
+           
+           }
+           .lastcont{
+            padding: 10px 0;
+           }
+        
+      
+}
+
+@media (min-width:1024px) {
+    .maincont{
+        /* border: 1px solid red; */
+        min-height: 100vh;
+        padding: 40px;
+     }
+     .homecont{
+         height: 80px;
+         width: 80px;
+         border-radius: 100%;
+     }
+     .icon{
+        width: 60px;
+        height: 60px;
+     }
+     .icons{
+      width: 20px;
+      height: 20px;
+    }
+     .textone{
+        text-align: center;
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 42px;
+       }
+       .textwo{
+           text-align: center;
+            font-weight: 600;
+            font-size: 35px;
+            line-height: 40px;
+          }
+          .get{
+            font-size: 14px;
+           }
+           .getcont{
+            /* border: 1px solid red; */
+            padding: 20px 120px;
+           }
+           .cont{
+            font-size:17px;
+           padding: 10px 0;
+           }
+           .last{
+            font-size: 12px;
+           }
+        
+      
+}
+
+@media (min-width:1280px) {
+  
+     .textone{
+        
+        font-size: 30px;
+        line-height: 42px;
+       }
+       .textwo{
+           
+            font-size: 40px;
+            line-height: 40px;
+          }
+          .get{
+            font-size: 18px;
+           }
+           .getcont{
+            /* border: 1px solid red; */
+            padding: 50px 150px;
+           }
+           .cont{
+            font-size:20px;
+           padding: 15px 0;
+           }
+           .icons{
+            width: 25px;
+            height: 25px;
+          }
+          .last{
+            font-size: 14px;
+           
+           }
+        
+}
