@@ -19,7 +19,7 @@ const Fax = () => {
       id:2,
       iconOne: <FiSend className={styles.icons}/>,
       label: "Send Faxes",
-      subLabel: "Sending faxes with DocHub is as easy as sending email. Send any document as a fax with our free or low-priced premium options. We'll even automatically craft a beautiful cover page for you.",
+      subLabel: "Sending faxes with ModiDoc is as easy as sending email. Send any document as a fax with our free or low-priced premium options. We'll even automatically craft a beautiful cover page for you.",
       button: <button className={styles.button}>View Sent Fax</button>
     },
   ]

@@ -22,7 +22,7 @@ const page = () => {
       Create Templates and <br /> PDF Forms
       </p>
       <p className={styles.pages}>
-      Create or edit forms then use DocHub Templates to streamline distribution.
+      Create or edit forms then use ModiDoc Templates to streamline distribution.
       </p>
       <Link href={`/Create`} className={styles.link}>
       <button className={styles.button}>

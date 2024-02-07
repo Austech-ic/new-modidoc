@@ -17,6 +17,10 @@ const Layout = ({ children }) => {
   const toggleMenu = () => {
     setIsMenuOpen((prevIsMenuOpen) => !prevIsMenuOpen);
   };
+  const handleMenuClose = () => {
+    setIsMenuOpen(false); // Set isMenuOpen state to false to close the menu
+  };
+  
 
   return (
     <div className={`${styles.maincont} ${isMenuOpen ? styles.menuOpen : ''}`}>
@@ -37,7 +41,7 @@ const Layout = ({ children }) => {
         >
 
           {
-           router.pathname.includes ("/dashboard") ?  <Sidebar /> : <Settingsidebar  />
+           router.pathname.includes ("/dashboard") ?  <Sidebar handleMenuClose={handleMenuClose} /> : <Settingsidebar  />
           }
 
          

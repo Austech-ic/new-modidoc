@@ -30,7 +30,7 @@ const page = () => {
             id: 4,
             label: "Share and Publish",
             icons: <HiShare className={styles.icon} />,
-            text: "Share documents with collaborators or the world from your personal DocHub url."
+            text: "Share documents with collaborators or the world from your personal ModiDoc url."
         },
     ]
     return (

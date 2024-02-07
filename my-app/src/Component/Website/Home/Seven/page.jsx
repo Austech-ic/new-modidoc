@@ -8,7 +8,7 @@ const page = () => {
   return (
     <div className={styles.maincont}>
         <p className={styles.textone}>Get started with ModiDoc for free</p>
-        <p className={styles.textwo}>See why DocHub is the fastest growing PDF editor and document signing platform.</p>
+        <p className={styles.textwo}>See why ModiDoc is the fastest growing PDF editor and document signing platform.</p>
         <div className={styles.buttoncont}>
         <button className={styles.button}>
             <FcGoogle className={styles.icon} />

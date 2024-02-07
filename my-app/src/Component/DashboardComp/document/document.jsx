@@ -24,7 +24,7 @@ const page = () => {
       id:3,
       iconOne: <HiOutlineTemplate className={styles.icons}/>,
       label: "Legally Binding eSignatures",
-      subLabel: "DocHub's world-class eSignature features let you create legally binding, handwritten signatures using your smartphone."
+      subLabel: "ModicDoc's world-class eSignature features let you create legally binding, handwritten signatures using your smartphone."
     },
     {
       id:4,

@@ -18,7 +18,7 @@ const Sent = () => {
       id:2,
       iconOne: <TbSquareCheckFilled className={styles.icons}/>,
       label: "Get Forms Filled",
-      subLabel: "Create text, checkbox, and other field types in your document. Upon sending forms, DocHub will walk individuals through each field ensuring everything is completed correctly."
+      subLabel: "Create text, checkbox, and other field types in your document. Upon sending forms, ModiDoc will walk individuals through each field ensuring everything is completed correctly."
     },
     {
       id:3,

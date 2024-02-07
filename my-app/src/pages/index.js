@@ -20,7 +20,7 @@ export default function Home() {
     <Header />
     <SectionTwo />
     <Third />
-    <Four />
+    {/* <Four /> */}
     <Five />
     <Six />
     <Seven />
