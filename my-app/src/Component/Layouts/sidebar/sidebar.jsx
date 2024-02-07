@@ -53,13 +53,13 @@ const Sidebar = ({ handleMenuClose }) => {
       link: "/dashboard/public",
      path: "/dashboard/public",
     },
-    {
-      id:7,
-      icon: <MdOutlineFax className={styles.icon} />,
-      title: "Fax Inbox",
-      link: "/dashboard/fax",
-      path: "/dashboard/fax",
-    },
+    // {
+    //   id:7,
+    //   icon: <MdOutlineFax className={styles.icon} />,
+    //   title: "Fax Inbox",
+    //   link: "/dashboard/fax",
+    //   path: "/dashboard/fax",
+    // },
   ]
   const handleClick = () => {
     // Call handleMenuClose function to close the menu
